@@ -34,7 +34,7 @@ ui <- fluidPage(
                   max = 50,
                   value = 10),
       radioButtons("selectPlot", "What would you like to download?", choices = c("Grey Plot" = 1, "Red Plot" = 2, "Both the plots" = 3, "Entire Webpage" = 4), inline = FALSE),
-      actionButton("download","Download Plot", icon = icon("download"))
+      actionButton("download","Download", icon = icon("download"))
     ),
     
     mainPanel(
