@@ -64,13 +64,13 @@ server <- function(input, output) {
   
   observeEvent(input$download,{
     
-    if(input$download==1){
+    if(input$selectPlot==1){
       Capture("distPlot","Grey Plot","jpg")
-    }else if(input$download==2){
+    }else if(input$selectPlot==2){
       Capture("distPlot2","Red Plot","jpg")
-    }else if(input$download==3){
+    }else if(input$selectPlot==3){
       Capture("plots","Both the plots","jpg")
-    }else if(input$download==4){
+    }else if(input$selectPlot==4){
       Capture("html","Entire Webpage","jpg")
     }
       
