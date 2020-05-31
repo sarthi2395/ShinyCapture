@@ -2,7 +2,7 @@
 
 ![Logo](ShinyCaptureLogo.jpg)
 
-Package to facilitate taking easy screenshots of webpage elements in a RShiny Web Application.
+Package to facilitate taking easy screenshots of webpage elements in a RShiny Web Application. This package incorporates [html2canvas](https://html2canvas.hertzen.com/) script using the awesome `shinyjs` package by [Dean Attali](https://deanattali.com/) to take neat and tidy screenshots.
 
 How to install
 --------------
