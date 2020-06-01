@@ -22,7 +22,7 @@ library(shinyjs)
 library(ShinyCapture)
 
 ui <- fluidPage(
-  #Add this function on your UI to invoke the scripts
+  #Add this function in your UI part of the code to load the scripts
   useShinyCapture(),
   titlePanel("ShinyCapture - A Demo"),
   
@@ -64,7 +64,7 @@ server <- function(input, output) {
   })
   
   observeEvent(input$download,{
-    #Use the function Capture passing the element ID, required file name and formats as the paramaters
+    #Use the function Capture to take screenshots passing the element ID, required file name and formats as the paramaters
     if(input$selectPlot==1){
       Capture("distPlot","Grey Plot","jpg")
     }else if(input$selectPlot==2){
