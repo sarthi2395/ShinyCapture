@@ -18,7 +18,6 @@ Sample App
 
 ````r
 library(shiny)
-library(shinyjs)
 library(ShinyCapture)
 
 ui <- fluidPage(
